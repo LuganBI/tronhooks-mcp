@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tronhooks": {
+      "command": "npx",
+      "args": ["--prefix", "${CURSOR_PLUGIN_ROOT}", "--yes", "@tronhooks/mcp@0.1.0"],
+      "env": { "TRONHOOKS_API_KEY": "${TRONHOOKS_API_KEY}" }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tronhooks",
+  "owner": { "name": "tronhooks.com" },
+  "metadata": { "description": "tronhooks.com tools for TRON USDT/TRX transfer notifications and owner-reviewed configuration." },
+  "plugins": [
+    {
+      "name": "tronhooks",
+      "source": "plugins/cursor",
+      "description": "TRON USDT/TRX transfer notifications with owner-reviewed watch configuration."
+    }
+  ]
+}

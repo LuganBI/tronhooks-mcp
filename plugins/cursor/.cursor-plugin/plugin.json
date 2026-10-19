@@ -1,0 +1,21 @@
+{
+  "name": "tronhooks",
+  "version": "0.1.0",
+  "description": "TRON mainnet USDT/TRX transfer notifications: inspect watches and prepare owner-reviewed webhook or Telegram configuration. No funds transfers.",
+  "author": { "name": "tronhooks.com" },
+  "homepage": "https://tronhooks.com/docs/ai/clients/",
+  "repository": "https://github.com/LuganBI/tronhooks-mcp",
+  "license": "MIT",
+  "keywords": ["tron", "usdt", "trx", "webhook", "telegram", "notifications"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "TRONHOOKS_API_KEY": {
+        "type": "string",
+        "title": "Optional tronhooks API key",
+        "description": "Leave empty for capabilities, validation and creation previews. Configure an owner-provided mainnet API key only for account reads; never paste it into chat or commit it.",
+        "default": ""
+      }
+    }
+  }
+}
