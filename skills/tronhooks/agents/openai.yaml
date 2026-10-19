@@ -1,0 +1,4 @@
+interface:
+  display_name: "tronhooks TRON notifications"
+  short_description: "Integrate TRON USDT/TRX webhook and Telegram alerts"
+  default_prompt: "Use $tronhooks to build and test a TRON USDT deposit receiver, then show a watch configuration preview."
